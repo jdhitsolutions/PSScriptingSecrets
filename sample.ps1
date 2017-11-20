@@ -14,7 +14,7 @@ Function Get-Foo {
 
     Process {
         Write-Verbose "[$((Get-Date).TimeofDay) PROCESS] $Variable "
-        Get-CimInstance -ClassName
+        Get-CimInstance -ClassName $item
     } #process
 
     End {

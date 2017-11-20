@@ -54,6 +54,6 @@ else {
 $PSDefaultParameterValues.Clear()
 $PSDefaultParameterValues
 
-Get-ShareData -Name Work -Computername bovine320
+Get-ShareData -Name Work
 
 $PSDefaultParameterValues
